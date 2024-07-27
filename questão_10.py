@@ -36,7 +36,7 @@ print(f"Desvio padrão das diferenças: {desvio_padrao_diferencas}")
 print(f"Valor t: {t}")
 print(f"Valor crítico t para 95% de confiança: {t_critico}")
 
-# Decisão
+# Decisao
 if abs(t) > t_critico:
     print("Rejeitamos a hipótese nula (H0). Há evidência suficiente para concluir que as linguagens possuem desempenhos diferentes.")
 else:
